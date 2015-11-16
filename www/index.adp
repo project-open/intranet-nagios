@@ -3,7 +3,7 @@
 <property name="main_navbar_label">nagios</property>
 <property name="sub_navbar">@sub_navbar;noquote@</property>
 
-<table cellpadding=0 cellspacing=0 border=0 width=100%>
+<table cellpadding=0 cellspacing=0 border=0 width="100%">
 <tr>
   <td valign=top>
 
