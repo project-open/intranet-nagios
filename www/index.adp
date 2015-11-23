@@ -1,11 +1,11 @@
 <master src="../../intranet-core/www/master">
-<property name="title">@page_title;noquote@</property>
+<property name="doc(title)">@page_title;literal@</property>
 <property name="main_navbar_label">nagios</property>
-<property name="sub_navbar">@sub_navbar;noquote@</property>
+<property name="sub_navbar">@sub_navbar;literal@</property>
 
-<table cellpadding=0 cellspacing=0 border=0 width="100%">
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
 <tr>
-  <td valign=top>
+  <td valign="top">
 
     <%= [im_box_header [_ intranet-nagios.Nagios]] %>
     <ul>
@@ -22,7 +22,7 @@
 </tr>
 </table><br>
 
-<table cellpadding=0 cellspacing=0 border=0>
+<table cellpadding="0" cellspacing="0" border="0">
 <tr><td>
   <%= [im_component_bay bottom] %>
 </td></tr>

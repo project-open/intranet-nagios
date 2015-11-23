@@ -11,7 +11,7 @@ ad_page_contract {
 # Default & Security
 #
 
-set user_id [ad_maybe_redirect_for_registration]
+set user_id [auth::require_login]
 set page_title [lang::message::lookup "" intranet-nagios.Import_Nagios_Configuration "Import Nagios Configuration"]
 set context_bar [im_context_bar $page_title]
 set context ""
