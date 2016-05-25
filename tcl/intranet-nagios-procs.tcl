@@ -94,7 +94,7 @@ ad_proc -public im_nagios_process_alert {
 	    db_dml project_update {}
 	    
 	    # Write audit trail to track changes in the ticket.
-	    im_project_audit -project_id $ticket_id
+	    im_audit -object_id $ticket_id
 	    
 	} on_error {
 	    ns_log Error "im_nagios_process_alert: Error creating ticket: $errmsg"
