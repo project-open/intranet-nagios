@@ -2,6 +2,8 @@
 <message_catalog package_key="intranet-nagios" locale="de_DE" charset="ISO-8859-1">
 
   <msg key="Import_Nagios_Configuration">Nagios-Konfiguration importieren</msg>
+  <msg key="Import_Nagios_Definitions">Nagios Stammdaten importieren</msg>
   <msg key="Nagios">Nagios</msg>
+  <msg key="Nagios_Main_Page">Nagio Hauptseite</msg>
   <msg key="Nagios_Parameters">Nagios-Parameter</msg>
 </message_catalog>
