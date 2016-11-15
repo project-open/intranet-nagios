@@ -13,6 +13,7 @@
         <owner url="mailto:frank.bergmann@project-open.com">Frank Bergmann</owner>
         <summary>Integration with the Nagios systems monitoring package</summary>
         <vendor url="http://www.project-open.com/">]project-open[</vendor>
+        <release-date>2016-11-15</release-date>
         <description format="text/plain">1) Imports the Nagios configuration file and creates ]po[ ConfItems, 2) imports Nagios event emails and 3) (possibly) write Nagios configuration based on ]po[ ConfItems</description>
         <maturity>0</maturity>
 
