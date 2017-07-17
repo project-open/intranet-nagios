@@ -2,7 +2,7 @@
 <message_catalog package_key="intranet-nagios" locale="en_US" charset="ISO-8859-1">
 
   <msg key="Import_Nagios_Configuration">Import Nagios Configuration</msg>
-  <msg key="Import_Nagios_Definitions">Import Nagios Definitions</msg>
+  <msg key="Import_Nagios_Definitions">Uvoz Nagios definicija</msg>
   <msg key="Nagios">Nagios</msg>
   <msg key="Nagios_Main_Page">Nagios Main Page</msg>
   <msg key="Nagios_Parameters">Nagios Parameters</msg>
